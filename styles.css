@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Serif Display', serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #ECF2FF;
+}
+
+.nav-container {
+  height: 10vh;
+  background-color: #191825;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #ECF2FF;
+  font-size: 4rem;
+}
+
+/* Main Styling here */
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container {
+  /* border: 1px solid black; */
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.btn-select {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: #3A98B9;
+  padding: 1.6rem 3.2rem;
+}
+.btn-start {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: #FF0303;
+  padding: 1.6rem 3.2rem;
+}
+
+.btn-select:hover, .btn-start:hover {
+  filter: brightness(90%);
+}
+
+.btn-select:active, .btn-start:active {
+  filter: brightness(100%);
+}
